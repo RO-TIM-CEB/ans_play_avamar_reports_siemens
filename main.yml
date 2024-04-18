@@ -10,7 +10,7 @@
         msg: "Playbook started at {{ ansible_date_time.iso8601 }}"
   vars:
     email_subject: "AVAMAR Siemens Global Backup Report - {{ inventory_hostname }}"
-    email_to: "globalbackupreporting.it-solutions@atos.net, raul.alexandru@atos.net"
+    email_to: "raul.alexandru@atos.net"
 
   # Main role for Avamar reports
   roles:
